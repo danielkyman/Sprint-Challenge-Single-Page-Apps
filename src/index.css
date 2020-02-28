@@ -2,6 +2,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-size:3rem;
+
+}
+
+html{
+  font-size:62.5%;
+  
 }
 
 main {
@@ -12,6 +19,7 @@ main {
   background: #fff;
   padding: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  background-color: ghostwhite;
 }
 
 .grid-view {
@@ -36,4 +44,43 @@ main {
 
 header h1 {
   text-align: center;
+}
+
+.list{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border:2px solid black;
+  margin:20px auto;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.search-form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-page{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main-img{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
